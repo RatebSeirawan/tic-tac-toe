@@ -1,0 +1,27 @@
+.game {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F0F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.board {
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    width: 42px;
+    height: 42px;
+}
+
+.square:focus {
+    outline: none;
+}
